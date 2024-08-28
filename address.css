@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.address-info{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.address i{
+    margin-bottom: 5px;
+    color: rgb(35, 0, 100);
+}
+
+.address div{
+    margin-bottom: 3px;
+}
+
+.address-a{
+    font-weight: bolder;
+    font-family: arial;
+    font-size: 15px;
+}
+
+.address-b{
+    font-size: 13px;
+    color: grey;
+    font-family: arial;
+}
+
+.phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.phone i{
+    margin-bottom: 5px;
+    color: rgb(35, 0, 100);
+    font-size: 20px;
+}
+
+.phone div{
+    margin-bottom: 3px;
+}
+
+.phn-a{
+    color: grey;
+    font-size: 13px;
+    font-family: arial;
+}
+
+.phn-b{
+    font-weight: bolder;
+    font-family: arial;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.email i{
+    margin-bottom: 5px;
+    color: rgb(35, 0, 100);
+}
+
+.email div{
+    margin-bottom: 3px;
+    
+}
+
+.email-a{
+    font-weight: bolder;
+    font-family: arial;
+}
+
+.email-b{
+    color: grey;
+    font-size: 13px;
+    font-family: arial;
+}
+
+.vl{
+    border-left: 1px solid grey;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25px;
+    left: 300px;
+}
+
+.heading{
+    color: rgb(35, 0, 100);
+    font-weight: bolder;
+    font-family: arial;
+    margin-bottom: 5px;
+}
+
+.description{
+    color: grey;
+    font-size: 15px;
+    font-family: arial;
+    margin-bottom: 5px;
+}
+
+.form input{
+   margin-bottom: 5px;
+   outline: none;
+   background-color: rgb(224, 224, 224); 
+   border: none;
+   border-radius: 2px;
+}
+
+.input-email{
+    padding: 7px 10px;
+}
+
+.msg{
+    padding-bottom: 40px;
+    padding-left: 7px;
+    padding-top: 7px;
+}
+
+.sned-now{
+    background-color: rgb(35, 0, 100);
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    margin-right: 550px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+
+
